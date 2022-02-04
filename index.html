@@ -9,54 +9,64 @@
 <body>
     <header>
         <img src="http://assets.stickpng.com/images/588a64e7d06f6719692a2d11.png" alt="menu hamburguesa" width="30px">
-       <ul>
+       <ul class="unorderedList">
            <li><a href="/"></a>producto</li>
            <li><a href="/"></a>info</li>
            <li>
-               <select>
+               <select id="languages">
                    <option value="español">ESP</option>
                    <option value="ingles">ENG</option>
                </select>
            </li>
+           <li><a href=""><img src="https://cdn-icons-png.flaticon.com/512/107/107122.png" alt="icono buscar" width="30px"></a></li>
+           <li><a href=""><img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="icono perfil" width="30px"></a></li>
+           <li><a href=""><img src="https://revistapym.com.co/wp-content/uploads/2019/08/CATEGORIAS-2-scaled.jpg" alt="fondo header" width="1890px"></a></li>
        </ul>
-       <img src="https://cdn-icons-png.flaticon.com/512/107/107122.png" alt="icono buscar" width="30px">
-       <img src="https://cdn-icons-png.flaticon.com/512/1361/1361728.png" alt="icono perfil" width="30px">
-       <img src="https://revistapym.com.co/wp-content/uploads/2019/08/CATEGORIAS-2-scaled.jpg" alt="fondo header" width="1890px">
 
-       <div>
+       <div id="registrationAd">
            <h4>SE PARTE DE NUESTROS HATSU LOVERS</h4>
            <a href="">registrate</a>
        </div>
 
     </header>
 
-
     <section>
         <h2>DESCUBRE NUESTROS PRODUCTOS</h2>
-        <a href="" class="productosClass" id="uchuvasId">
-            <img src="https://hatsu.co/medellin/384-home_default/uchuvas-cubiertas-con-yogurt-20-gr.jpg" alt="producto1">
-            <h3>UCHUVAS CON YOGURT</h3>
-        </a>
+        
+        <div class="productsClass" id="uchuvasId">
+            <a href="">
+                <img src="https://hatsu.co/medellin/384-home_default/uchuvas-cubiertas-con-yogurt-20-gr.jpg" alt="producto1">
+                <h3>UCHUVAS CON YOGURT</h3>
+            </a>
+        </div>
 
 
-        <a href="" class="productosClass" id="teVerdeId">
-            <img src="https://hatsu.co/medellin/280-home_default/bebida-de-te-verde-con-sabor-a-yuzu-y-manzanilla-400-ml.jpg" alt="producto2">
-            <h3>TÉ VERDE CON YUZU Y MANZANILLA</h3>
-        </a>
+
+        <div class="productsClass" id="teVerdeId">
+            <a href="">
+                <img src="https://hatsu.co/medellin/280-home_default/bebida-de-te-verde-con-sabor-a-yuzu-y-manzanilla-400-ml.jpg" alt="producto2">
+                <h3>TÉ VERDE CON YUZU Y MANZANILLA</h3>
+            </a>
+        </div>
+
             
 
-        <a href="" class="productosClass" id="teRosaX6Id">
-            <img src="https://hatsu.co/medellin/318-home_default/bebida-de-te-blanco-con-sabor-a-lychee-x6-250-ml.jpg" alt="producto3">
-            <h3>TÉ CON LYCHEE X6</h3>
+        <div class="productsClass" id="teRosaX6Id">
+            <a href="">
+                <img src="https://hatsu.co/medellin/318-home_default/bebida-de-te-blanco-con-sabor-a-lychee-x6-250-ml.jpg" alt="producto3">
+                <h3>TÉ CON LYCHEE X6</h3>
+            </a>
+        </div>
+    
 
-        </a>
+        <div class="productsClass" id="teRosaId">
+            <a href="">
+                <img src="https://hatsu.co/medellin/287-home_default/bebida-de-te-blanco-con-sabor-a-lychee-400-ml.jpg" alt="producto4">
+                <h3>TÉ ROSA CON LYCHEE</h3>
+            </a>
+        </div>
+    
 
-
-        <a href="" class="productosClass" id="teRosaId">
-            <img src="https://hatsu.co/medellin/287-home_default/bebida-de-te-blanco-con-sabor-a-lychee-400-ml.jpg" alt="producto4">
-            <h3>TÉ ROSA CON LYCHEE</h3>
-
-        </a>
     </section>
 
     <figure>
@@ -64,7 +74,7 @@
     </figure>
 
     <section>
-        <div>
+        <div class="hatsuCommunity">
             <h2>H COMMUNITY</h2>
             <h2>¡CONTENIEDO INSPIRADOR!</h2>
             <a href="/">VER TODO</a>
@@ -76,47 +86,53 @@
         </div>
 
     <section>
-        <a href="/">VISITA NUESTRA TIENDA ONlINE</a>
-
-        <h2>MANTENTE ACTUALIZADO</h2>
-        <h4>correo</h4>
-        <input type=" " name="correo" id="correo">
-
-        <a href="/">SUSCRIBIR</a>
-        <ul>
-            <li>
-                <button>(Casilla para poner chilito</button>
-                <h4>Acepto tratamiento de datos personales para registro en nuestro boletin , SI </h4>
-            </li>
-        </ul> 
+        <div class="newsLetterForm">
+            <form action="" id="formNL">
+                <a href="/">VISITA NUESTRA TIENDA ONlINE</a>
         
+                <h2>MANTENTE ACTUALIZADO</h2>
+                <h4>correo</h4>
+                <input type=" " name="correo" id="correo">
+        
+                <a href="/">SUSCRIBIR</a>
+                <ul>
+                    <li>
+                       <input type="checkbox" name="" id="agreeCheckbox">
+                        <h4>Acepto tratamiento de datos personales para registro en nuestro boletin , SI </h4>
+                    </li>
+                </ul> 
+                
+            </form>
+        </div>
     </section>
 
     <footer>
         <h3>¡SIGUENOS!</h3>
 
-        <a href="/">
-            <img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="facebook" width="30px">
-        </a>
+        <div class="socialMedia">
+            <a href="/">
+                <img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="facebook" width="30px">
+            </a>
+    
+            <a href="/">
+                <img src="https://cdn-icons-png.flaticon.com/512/49/49097.png" alt="spotify" width="30px">
+            </a>
+    
+            <a href="/">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384012.png" alt="youtube" width="30px">
+            </a>
+    
+            <a href="/">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25698.png" alt="pinterest" width="30px">
+            </a>
+    
+            <a href="/">
+                <img src="https://i0.wp.com/www.rio11.club/wp-content/uploads/2018/03/icono-instagram.png?fit=375%2C375&ssl=1" alt="instagram" width="30px">
+            </a>      
 
-        <a href="/">
-            <img src="https://cdn-icons-png.flaticon.com/512/49/49097.png" alt="facebook" width="30px">
-        </a>
+        </div>
 
-        <a href="/">
-            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384012.png" alt="facebook" width="30px">
-        </a>
-
-        <a href="/">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25698.png" alt="facebook" width="30px">
-        </a>
-
-        <a href="/">
-            <img src="https://i0.wp.com/www.rio11.club/wp-content/uploads/2018/03/icono-instagram.png?fit=375%2C375&ssl=1" alt="facebook" width="30px">
-        </a>
-   
-
-        <div>
+        <div class="helpList">
             <h3>AYUDA</h3>
             <nav>
                 <ul>
@@ -131,14 +147,11 @@
         </div>
 
 
-        <div>
+        <div class="legalInfo">
             <h3>INFROMACION LEGAL</h3>
                 <nav>
                     <ul>
-                        <li>
-                            <a href="/">TERMINOS Y CONDICIONES
-                            </a>
-                        </li>
+                        <li><a href="/">TERMINOS Y CONDICIONES</a></li>
                         <li> <a href="/"></a>POLITICA DE COOKIES</li>
                         <li> <a href="/"></a>TRATAMIENTO DE DATOS</li>
                         <li> <a href="/"></a>CANALES DE ATENCION</li>
